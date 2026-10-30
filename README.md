@@ -57,6 +57,29 @@ As miniaturas e os nomes de canais que aparecem nas imagens são públicos e per
 
 Você precisa de Python 3.10 ou mais novo e de uma chave da YouTube Data API v3. A chave é grátis e é sua: o [guia de instalação](docs/instalacao.md#1-pegue-a-chave-da-api) mostra como criar.
 
+### Com uma LLM (recomendado)
+
+Abra o seu agente de código (Claude Code, Codex, OpenCode ou Antigravity) numa pasta qualquer e cole o prompt abaixo. O agente baixa o repositório, escolhe o instalador certo para o seu sistema, instala a skill e confere o resultado.
+
+````text
+Instale a skill DarkNiche (analise-mercado-yt) neste computador.
+
+Repositório: https://github.com/darksemfiltro/darkniche
+Guia: https://github.com/darksemfiltro/darkniche/blob/main/docs/instalacao.md
+
+1. Clone o repositório numa pasta temporária (ou baixe o ZIP) e leia o docs/instalacao.md.
+2. Descubra meu sistema e qual agente eu uso. Rode o instalador do sistema só para o meu agente:
+   Windows: powershell -ExecutionPolicy Bypass -File .\install.ps1 -Agent <claude|codex|opencode|antigravity> -NonInteractive
+   macOS, Linux ou WSL: bash install.sh --agent <claude|codex|opencode|antigravity> --non-interactive
+3. Não peça nem leia a minha chave da YouTube Data API no chat. Se ela ainda não estiver configurada, me diga para rodar o instalador sem -NonInteractive num terminal meu (ele pede a chave sem mostrá-la), ou para definir a variável de ambiente YT_API_KEY.
+4. Rode analise-mercado-yt/scripts/selftest.py e analise-mercado-yt/scripts/doctor.py e me mostre o resultado.
+5. Me diga em que pasta a skill ficou e qual pedido de teste eu posso fazer.
+````
+
+Se a chave ainda não existe, o [guia](docs/instalacao.md#1-pegue-a-chave-da-api) mostra como criar. Nunca cole a chave na conversa com o agente.
+
+### Manual
+
 1. Baixe o repositório (**Code > Download ZIP**, ou `git clone`) e abra a pasta num terminal.
 2. Rode o instalador. Ele copia a skill, pede a chave sem mostrá-la, instala yt-dlp e Pillow e roda a checagem.
 3. Abra o agente e peça a análise.
