@@ -1,0 +1,6 @@
+interface:
+  display_name: "DarkNiche · Mercado YouTube"
+  short_description: "Analisa nichos, idiomas e concorrência no YouTube com dados reais e pesquisa web"
+  default_prompt: "Use $analise-mercado-yt: analise o nicho ou a referência que eu indicar, estime o custo em buscas, me mostre o plano e só colete depois do meu ok. Entregue o relatório em português com veredito."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,10 @@
+# Finais de linha iguais em todos os sistemas (o install.sh quebra no Linux se vier com CRLF)
+* text=auto eol=lf
+
+# Binários
+*.png binary
+*.pdf binary
+*.zip binary
+
+# O exemplo é gerado: o repositório guarda os bytes exatos que foram conferidos no navegador
+exemplos/*.html -text -diff

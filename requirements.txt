@@ -1,0 +1,5 @@
+# Dependências da skill analise-mercado-yt. Todo o resto é biblioteca padrão do Python 3.10+.
+# yt-dlp acompanha as mudanças do YouTube: por isso é um piso, não uma versão fixa. Se a busca parar de funcionar,
+# rode: pip install -U yt-dlp
+yt-dlp>=2026.8.19
+Pillow==12.3.0

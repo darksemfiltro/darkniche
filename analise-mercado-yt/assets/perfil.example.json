@@ -1,0 +1,21 @@
+{
+ "schema": 2,
+ "idioma_relatorio": "pt-BR",
+ "idiomas_principais": ["pt", "en", "es"],
+ "idiomas_triagem": ["pt", "en", "es"],
+ "foco": "faceless",
+ "presenca": "sem_rosto",
+ "prioridades": ["oportunidade", "automacao_custo", "receita", "velocidade"],
+ "producao": {
+  "estilos": ["motion_codigo", "imagem_ia", "stock"],
+  "ferramentas": {"llm": "assinatura de agente de código (custo marginal ~0)", "tts": "TTS local (qualquer um que rode na sua GPU)", "imagem": "banco de imagens + imagens de IA", "edicao": "render por código ou editor de linha do tempo"},
+  "hardware": {"gpu": "NVIDIA", "vram_gb": 8},
+  "horas_max_video": 4,
+  "videos_mes": 8,
+  "orcamento_video_usd": 3,
+  "moeda": "USD",
+  "revisores_nativos": ["pt", "en"]
+ },
+ "assistir_video": "transcrição + prints",
+ "notas": "Exemplo. Copie para ~/.analise-mercado-yt/perfil.json e ajuste. estilos aceitos: motion_codigo, imagem_ia, stock, 2d, clipes_ia, apresentador, tela."
+}

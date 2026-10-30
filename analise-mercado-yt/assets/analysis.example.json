@@ -1,0 +1,740 @@
+{
+ "meta": {
+  "title_html": "Finanças pessoais: onde está a <span class=\"acc\">porta aberta?</span>",
+  "stamp": "EXEMPLO · DADOS REAIS DE 30/10/2026",
+  "description": "Relatório de exemplo do DarkNiche: piloto de finanças pessoais em PT e EN, com veredito, dados do YouTube e pesquisa web datada.",
+  "footer": "Relatório de exemplo gerado pela skill DarkNiche (analise-mercado-yt). Dados reais do piloto de 30/10/2026; não é recomendação financeira nem de investimento."
+ },
+ "summary": {
+  "lead": "Piloto de 5 recortes de finanças pessoais em português e inglês (10 células). O nicho largo está fechado; a única porta com sinal é <strong>finanças com IA em inglês</strong>, e ainda como teste.",
+  "lead_plain": "Piloto de finanças pessoais em PT e EN. O nicho largo está fechado; a porta com sinal é finanças com IA em inglês, como teste.",
+  "verdict_text": "Teste barato em finanças com IA (EN) e em planilha de orçamento (PT). Evite renegociação de dívidas e o nicho largo de investimentos.",
+  "findings": [
+   {
+    "title": "O nicho largo está fechado.",
+    "text": "Em 'como começar a investir', 83 de 83 vídeos do topo em inglês passam de 100 mil views, com 61 canais ativos. Em português são 89 de 95."
+   },
+   {
+    "title": "Renegociar dívida em PT tem dono e calendário.",
+    "text": "Canais efetivos: 3,7; os 3 maiores têm 75% das views, e as views seguem o Desenrola (chamamento em nov/2026, r11). Nota abaixo do corte."
+   },
+   {
+    "title": "A porta aberta está em finanças com IA, em inglês.",
+    "text": "58% das views do topo vêm de canais com menos de 100 mil inscritos, o ritmo mediano é de 203 views/dia e nenhuma das 15 miniaturas mais vistas é sem rosto."
+   },
+   {
+    "title": "Em português o ângulo existe, mas rende pouco.",
+    "text": "Ritmo de 39 views/dia e RPM de finanças no Brasil de US$ 1,60–4,20 em blog (r2, confiança baixa). A planilha de orçamento tem mais volume (67 views/dia) e 32% de views de canais pequenos."
+   },
+   {
+    "title": "A regra do YouTube pesa mais que o formato.",
+    "text": "Persona de IA que se apresenta como especialista financeiro não monetiza (r6). Tutorial de ferramenta e método, com dados fictícios, fica fora dessa regra."
+   },
+   {
+    "title": "Formato livre não prova fit.",
+    "text": "Zero rostos ausentes no topo pode ser lacuna ou sinal de que o público quer confiar em uma pessoa. Os 3 vídeos de teste do plano medem isso."
+   }
+  ]
+ },
+ "method": {
+  "scan": "Uma consulta curta e nativa por recorte e idioma, últimos 12 meses, ordenada por views, long-form (4 min ou mais), enriquecida com dados de vídeo e canal. Filtros locais por palavra-chave, com grupos para cruzar IA e finanças.",
+  "fit": "Autocomplete do YouTube, Wikipédia relativa, notícias e o 'em alta' do país; as âncoras locais vêm das miniaturas e dos títulos do topo.",
+  "format": "Grades de 15 miniaturas do topo lidas e classificadas por estilo em 3 células.",
+  "notes": [
+   "A demanda sai do ritmo (views por dia dos vídeos com 14 dias ou mais), não da mediana de views acumuladas.",
+   "Canais efetivos (1 ÷ HHI) separam topo concentrado de topo fragmentado.",
+   "O perfil de produção é o de exemplo (assets/perfil.example.json); troque pelo seu antes de usar A, K e S."
+  ]
+ },
+ "bends": [
+  {
+   "axis": "Ângulo",
+   "from": "planilha manual de orçamento",
+   "to": "controle financeiro montado por IA",
+   "cells": [
+    "planilha-orcamento",
+    "financas-com-ia"
+   ],
+   "note": "O topo de 'planilha de orçamento' em inglês já tinha 3 tutoriais com IA de canais abaixo de 55 mil inscritos."
+  },
+  {
+   "axis": "Formato",
+   "from": "apresentador + tela",
+   "to": "tela com narração, sem rosto",
+   "cells": [
+    "financas-com-ia"
+   ],
+   "note": "Grade lida: 0 a 7% do topo é sem rosto."
+  }
+ ],
+ "markets": [
+  {
+   "lang": "pt",
+   "label": "Português (Brasil)",
+   "countries": "BR",
+   "rpm_class": "baixo",
+   "fit": 4,
+   "fit_notes": "Planilha e Excel são hábito local; dívida é tema nacional (81,7% das famílias com dívidas a vencer, r10). Receita baixa por view.",
+   "consumption": "Tutorial em tela e notícia do dia; apresentador com rosto domina.",
+   "queries": "'planilha financeira com ia', 'planilha financeira chatgpt'",
+   "risks": "Golpe financeiro é preocupação do público; regra de persona de IA (r6).",
+   "evidence": [
+    {
+     "research": "r2"
+    },
+    {
+     "research": "r10"
+    }
+   ]
+  },
+  {
+   "lang": "en",
+   "label": "Inglês (EUA)",
+   "countries": "US",
+   "rpm_class": "alto (blog)",
+   "fit": 3,
+   "fit_notes": "Tema universal, sem âncora local forte; o diferencial está no ângulo, não no país.",
+   "consumption": "Tutorial de ferramenta com apresentador e painel.",
+   "queries": "'claude ai personal finance dashboard', 'best ai for personal finance'",
+   "risks": "Mercado grande e disputado; mesma regra de persona.",
+   "evidence": [
+    {
+     "research": "r1"
+    }
+   ]
+  }
+ ],
+ "format_gap": [
+  {
+   "cell": "financas-com-ia",
+   "lang": "en",
+   "label": "Finanças com IA",
+   "styles": [
+    {
+     "style": "apresentador + logo ou painel",
+     "share": 0.87
+    },
+    {
+     "style": "entrevista ou podcast",
+     "share": 0.13
+    }
+   ],
+   "proposed_present": false,
+   "note": "0 de 15 miniaturas sem rosto: o formato está livre, ou o público pede rosto."
+  },
+  {
+   "cell": "financas-com-ia",
+   "lang": "pt",
+   "label": "Finanças com IA",
+   "styles": [
+    {
+     "style": "apresentador + painel ou logo",
+     "share": 0.93
+    },
+    {
+     "style": "motion e ícones, sem rosto",
+     "share": 0.07
+    }
+   ],
+   "proposed_present": false,
+   "note": "1 de 15 sem rosto ('Integre com o seu banco')."
+  },
+  {
+   "cell": "planilha-orcamento",
+   "lang": "pt",
+   "label": "Planilha de orçamento",
+   "styles": [
+    {
+     "style": "apresentador",
+     "share": 0.8
+    },
+    {
+     "style": "planilha em tela com rosto pequeno",
+     "share": 0.2
+    }
+   ],
+   "proposed_present": false,
+   "note": "Nenhuma miniatura totalmente sem rosto; 3 de 15 mostram só a planilha com um rosto pequeno."
+  }
+ ],
+ "opportunities": [
+  {
+   "id": "ia-financas-en",
+   "name": "Finanças com IA (EN): painel e planilha sem rosto",
+   "lang": "en",
+   "markets": "EUA e países de língua inglesa",
+   "lens": "tutorial em tela com narração, sem rosto",
+   "domain": "finanças pessoais com IA",
+   "oneliner": "Tutoriais de planilha e painel financeiro feitos com IA. Nenhum dos 15 vídeos mais vistos é sem rosto e 58% das views vêm de canais pequenos.",
+   "bend": {
+    "label": "novo ângulo + novo formato",
+    "from": "planilha manual com apresentador",
+    "to": "planilha montada por IA, tela com narração"
+   },
+   "cells": [
+    "financas-com-ia__en"
+   ],
+   "scores": {
+    "D": {
+     "v": 3,
+     "why": "Ritmo mediano de 203 views/dia nos 42 vídeos maduros do topo (IC 90%: 95–355), equivalente EN 203/dia; 9 de 42 long-form passam de 100 mil views.",
+     "measured": true
+    },
+    "L": {
+     "v": 2,
+     "why": "20 canais ativos, 10,5 efetivos; os 3 maiores concentram 43% das views; 58% das views vêm de canais com menos de 100 mil inscritos.",
+     "measured": true
+    },
+    "F": {
+     "v": 3,
+     "why": "Tema universal em inglês, sem âncora local. O autocomplete mostra a busca nativa ('claude ai personal finance dashboard'), mas não há teste de fit por país.",
+     "measured": false
+    },
+    "G": {
+     "v": 5,
+     "why": "Grade lida: 0 de 15 miniaturas sem rosto (13 são apresentador com logo ou painel; 2, entrevista ou podcast). Formato livre também pode querer dizer que o público pede rosto.",
+     "measured": true
+    },
+    "A": {
+     "v": 3,
+     "why": "Roteiro e voz automatizam; a gravação de tela do fluxo na ferramenta continua manual (perfil de exemplo)."
+    },
+    "K": {
+     "v": 5,
+     "why": "Sem vídeo gerado por IA: roteiro por assinatura e voz local. Preços de ferramentas não foram pesquisados nesta execução."
+    },
+    "S": {
+     "v": 3,
+     "why": "Gravar a tela exige uma pessoa; cabe nas 4 horas por vídeo do perfil de exemplo, em inglês só com revisor nativo."
+    },
+    "M": {
+     "v": 4,
+     "why": "Classe de RPM alta para finanças nos EUA (US$ 15–26, blog, confiança baixa: r1). Só AdSense; afiliado de ferramentas é hipótese."
+    },
+    "V": {
+     "v": 3,
+     "why": "Frescor de 4% (auto V2), mas 58% das views do topo vêm de canais com menos de 100 mil inscritos. Um canal dedicado e pequeno (Luke Finance, 30,7 mil inscritos, 96% dos vídeos sobre o tema, mediana de 29 mil views) mostra a porta aberta sem depender de canal novo."
+    },
+    "R": {
+     "v": 3,
+     "why": "Finanças é tema sensível (YMYL leve). A regra de persona de IA (r6) não pega tutorial de ferramenta, e os comentários pedem cuidado com extrato bancário."
+    }
+   },
+   "evidence": [
+    {
+     "text": "How I Automated My Finances with Claude AI (EPIC DASHBOARD) · KJ Rainey",
+     "video": "P-7LD2j7GAU",
+     "views": 299323
+    },
+    {
+     "text": "Testing Claude for Excel: Can It Build a Real Financial Model? · Josh Aharonoff (Your CFO Guy)",
+     "video": "m5YF89Kym1Y",
+     "views": 300223
+    },
+    {
+     "text": "1 Month of Claude in Finance · Shin Financials",
+     "video": "shNYNFFCz2g",
+     "views": 407145
+    },
+    {
+     "research": "r1"
+    },
+    {
+     "research": "r6"
+    }
+   ],
+   "competitors": [
+    {
+     "id": "UC63fON8nPB6FfHOJi_wCZXw",
+     "title": "KJ Rainey"
+    },
+    {
+     "id": "UCCQ1uKUUYUXDnjYTAJUppQA",
+     "title": "Luke Finance"
+    },
+    {
+     "id": "UCJBebcYWhO9WTCwx2-FHT2w",
+     "title": "Shin Financials"
+    }
+   ],
+   "aesthetic": "Tela cheia do fluxo real, cursor destacado, números que entram quando são falados e zoom como pontuação. Sem avatar de especialista.",
+   "format": "12 a 18 minutos: promessa, demonstração passo a passo com dados fictícios, teste de erros da IA e modelo para baixar.",
+   "titles": [
+    "I Built My Budget Dashboard With AI in 20 Minutes (Free Template)",
+    "Stop Typing Expenses: Let AI Categorize Your Spending",
+    "AI Budget Spreadsheet, Step by Step (No Formulas)",
+    "Claude + Google Sheets: A Personal Finance Tracker From Scratch",
+    "What AI Gets Wrong About Your Money (Honest Test)"
+   ],
+   "signature": "Teste honesto no fim de cada vídeo: onde a IA errou e como conferir.",
+   "production": {
+    "automation": "3/5: roteiro e voz automáticos; gravação de tela manual",
+    "cost": "US$ 1–3 por vídeo de 15 min (perfil de exemplo; preços não pesquisados hoje)",
+    "local": "parcial: o roteiro usa LLM em nuvem",
+    "solo": "sim: cerca de 4 h por vídeo",
+    "stack": "perfil de exemplo (assets/perfil.example.json)"
+   },
+   "monetization": "AdSense (RPM de finanças nos EUA: US$ 15–26 em blog, confiança baixa). Afiliado de planilhas e apps de orçamento a testar.",
+   "risks": "Persona de IA dando conselho financeiro não monetiza (r6); tutorial sobre ferramenta e método, sem recomendação individual, fica de fora da regra. Dados fictícios nas demonstrações.",
+   "why_now": "O autocomplete em inglês já mostra buscas como 'claude ai personal finance dashboard' e as notícias sobre IA e finanças pessoais aceleram (ritmo de 1,9× na janela de 14 dias).",
+   "first_videos": [
+    "Planilha de orçamento gerada por IA, com dados fictícios",
+    "Teste: onde a IA erra ao categorizar gastos",
+    "Painel mensal automático em Google Sheets"
+   ]
+  },
+  {
+   "id": "ia-financas-pt",
+   "name": "Finanças com IA (PT): planilha e painel sem rosto",
+   "lang": "pt",
+   "markets": "Brasil",
+   "lens": "tutorial em tela com narração, sem rosto",
+   "domain": "finanças pessoais com IA",
+   "oneliner": "O mesmo ângulo em português: existe demanda e quase ninguém sem rosto, mas o ritmo é baixo e a receita por view também.",
+   "bend": {
+    "label": "mesmo ângulo, outro idioma",
+    "from": "painel financeiro com IA (EN)",
+    "to": "planilha financeira com IA (PT-BR)"
+   },
+   "cells": [
+    "financas-com-ia__pt"
+   ],
+   "scores": {
+    "D": {
+     "v": 2,
+     "why": "Ritmo mediano de 39 views/dia nos 38 vídeos maduros do topo (IC 90%: 16–92), equivalente EN 118/dia; 4 de 39 long-form passam de 100 mil views.",
+     "measured": true
+    },
+    "L": {
+     "v": 2,
+     "why": "17 canais ativos, 6,6 efetivos; os 3 maiores concentram 58% das views; 37% das views vêm de canais com menos de 100 mil inscritos.",
+     "measured": true
+    },
+    "F": {
+     "v": 4,
+     "why": "Busca nativa no autocomplete ('planilha financeira com ia', 'planilha financeira chatgpt'), interesse pela Wikipédia de finanças 2,3× a mediana e âncoras locais nas miniaturas (bancos, Open Finance).",
+     "measured": true
+    },
+    "G": {
+     "v": 4,
+     "why": "Grade lida: 1 de 15 miniaturas sem rosto (7%); 14 mostram apresentador com painel ou logo da ferramenta.",
+     "measured": true
+    },
+    "A": {
+     "v": 3,
+     "why": "Mesma rotina do inglês: gravação de tela manual."
+    },
+    "K": {
+     "v": 5,
+     "why": "Sem vídeo gerado por IA; voz local. Preços não pesquisados nesta execução."
+    },
+    "S": {
+     "v": 3,
+     "why": "Cabe no perfil de exemplo; a voz em português do Brasil precisa de teste de pronúncia."
+    },
+    "M": {
+     "v": 2,
+     "why": "RPM de finanças no Brasil em blog: US$ 1,60–4,20 (confiança baixa: r2); o YouTube não publica por país."
+    },
+    "V": {
+     "v": 2,
+     "why": "Nenhum canal criado há menos de 18 meses no topo (auto V1), mas 37% das views vêm de canais com menos de 100 mil inscritos."
+    },
+    "R": {
+     "v": 3,
+     "why": "Mesma regra de persona de IA (r6); o público brasileiro de finanças é sensível a golpe."
+    }
+   },
+   "evidence": [
+    {
+     "text": "Como Criar Qualquer Planilha Excel com I.A (100% Grátis) mesmo sendo total iniciante · Francysco Alcylandyo",
+     "video": "IxWBti47lJM",
+     "views": 177255
+    },
+    {
+     "text": "AUTOMATIZEI meu controle FINANCEIRO com INTELIGÊNCIA ARTIFICIAL — tutorial com n8n, Gemini e Notion · Programação Dinâmica",
+     "video": "W17AFB6ftfE",
+     "views": 49007
+    },
+    {
+     "text": "Criei um sistema de Controle Financeiro Pessoal com o Claude (Planilha + Dashboard) · Larissa Gomes | IA",
+     "video": "yZrOTTr_8Ew",
+     "views": 19030
+    },
+    {
+     "research": "r2"
+    }
+   ],
+   "competitors": [
+    {
+     "id": "UCS7d_YRUnjOBxAw_QEqvr3g",
+     "title": "Francysco Alcylandyo"
+    },
+    {
+     "id": "UCmHFWKTAJ5pHxZIj5SSdkHQ",
+     "title": "Antonio Bennati | Dados & IA"
+    }
+   ],
+   "titles": [
+    "Planilha financeira feita por IA em 10 minutos (modelo grátis)",
+    "Como controlar seus gastos com ChatGPT sem digitar nada",
+    "IA no seu controle financeiro: o que funciona e o que não"
+   ],
+   "production": {
+    "automation": "3/5",
+    "cost": "US$ 1–3 por vídeo (perfil de exemplo)",
+    "local": "parcial",
+    "solo": "sim"
+   },
+   "monetization": "AdSense com RPM brasileiro baixo; sem afiliado confirmado.",
+   "risks": "Retorno baixo por view: só vale com custo de produção quase zero ou como porta para outro produto."
+  },
+  {
+   "id": "renegociar-pt",
+   "name": "Renegociar dívida (PT): explicador de programas e leis",
+   "lang": "pt",
+   "markets": "Brasil",
+   "lens": "explicador de programas públicos e direitos do devedor",
+   "domain": "dívidas e renegociação",
+   "oneliner": "A demanda existe e é movida por programas do governo, mas um canal tem 5 dos 9 vídeos mais vistos.",
+   "bend": {
+    "label": "novo domínio",
+    "from": "explicador de investimentos",
+    "to": "explicador de renegociação de dívidas"
+   },
+   "cells": [
+    "renegociar-divida__pt"
+   ],
+   "scores": {
+    "D": {
+     "v": 3,
+     "why": "Ritmo mediano de 48 views/dia nos 56 vídeos maduros do topo (IC 90%: 13–98), equivalente EN 145/dia; 8 de 56 long-form passam de 100 mil views.",
+     "measured": true
+    },
+    "L": {
+     "v": 1,
+     "why": "22 canais ativos, 3,7 efetivos; os 3 maiores concentram 75% das views; 8% das views vêm de canais com menos de 100 mil inscritos. Um canal (Antonio Galvão) tem 5 dos 9 vídeos mais vistos, com o mesmo formato que você faria.",
+     "measured": true
+    },
+    "F": {
+     "v": 5,
+     "why": "Âncoras locais fortes: Desenrola 3.0 (MP de 25/09/2026, r11), 81,7% das famílias com dívidas a vencer (r10) e 85 notícias em 30 dias.",
+     "measured": true
+    },
+    "G": {
+     "v": 3,
+     "why": "Grade não lida para esta célula: julgado pelo tipo de canal (apresentador com notícia do dia).",
+     "measured": false
+    },
+    "A": {
+     "v": 3,
+     "why": "Checagem jurídica e factual obrigatória: a lei muda por medida provisória."
+    },
+    "K": {
+     "v": 4,
+     "why": "Roteiro e voz baratos; a revisão humana é o custo."
+    },
+    "S": {
+     "v": 3,
+     "why": "Solo só com revisão de fatos a cada vídeo."
+    },
+    "M": {
+     "v": 2,
+     "why": "RPM brasileiro baixo (US$ 1,60–4,20, blog: r2); público endividado converte pouco em afiliado."
+    },
+    "V": {
+     "v": 2,
+     "why": "2% das views vêm de canais criados há menos de 18 meses e 8% de canais pequenos: porta quase fechada."
+    },
+    "R": {
+     "v": 4,
+     "why": "Público em dificuldade, promessa de desconto que a lei não garante a cada devedor (r11) e regra de persona de IA para conselho financeiro (r6)."
+    }
+   },
+   "evidence": [
+    {
+     "text": "ESSA NOVA LEI VAI ACABAR COM SUAS DÍVIDAS · Antonio Galvão",
+     "video": "JaC1ZZFkh50",
+     "views": 413128
+    },
+    {
+     "text": "GOVERNO VAI COMPRAR SUA DÍVIDA! (NOVO DESENROLA BRASIL 3.0) · Antonio Galvão",
+     "video": "EMZeBzU9r7o",
+     "views": 204553
+    },
+    {
+     "text": "DESENROLA BRASIL 2.0: LIBERADA NEGOCIAÇÃO DE DÍVIDAS. APRENDA A FAZER · Antonio Galvão",
+     "video": "Wrkrh6TFDRI",
+     "views": 163790
+    },
+    {
+     "research": "r10"
+    },
+    {
+     "research": "r11"
+    }
+   ],
+   "competitors": [
+    {
+     "id": "UCURw6ikAQpghxQDcSfj924g",
+     "title": "Antonio Galvão"
+    }
+   ],
+   "titles": [
+    "Desenrola 3.0: quem entra, quanto cai a dívida e o que NÃO está garantido",
+    "Dívida de cartão: 5 direitos que o banco não conta"
+   ],
+   "production": {
+    "automation": "3/5",
+    "cost": "US$ 1–3 por vídeo (perfil de exemplo)",
+    "local": "parcial",
+    "solo": "parcial: revisão jurídica"
+   },
+   "monetization": "AdSense com RPM brasileiro baixo.",
+   "risks": "Alto: conteúdo de conselho financeiro com avatar de IA não monetiza (r6) e erro de fato pode prejudicar o espectador.",
+   "why_now": "O chamamento do Desenrola 3.0 está previsto para nov/2026 e o repasse ao devedor para fev/2027 (r11): pico de busca provável, mas o topo atual já tem dono."
+  },
+  {
+   "id": "planilha-pt",
+   "name": "Planilha de orçamento (PT): tela e narração, sem rosto",
+   "lang": "pt",
+   "markets": "Brasil",
+   "lens": "tutorial de planilha, narração sem rosto",
+   "domain": "controle de gastos",
+   "oneliner": "Mar disputado, mas 32% das views vêm de canais pequenos e nenhum dos 15 mais vistos é totalmente sem rosto.",
+   "bend": {
+    "label": "novo formato",
+    "from": "apresentador com planilha",
+    "to": "planilha em tela cheia com narração"
+   },
+   "cells": [
+    "planilha-orcamento__pt"
+   ],
+   "scores": {
+    "D": {
+     "v": 3,
+     "why": "Ritmo mediano de 67 views/dia nos 81 vídeos maduros do topo (IC 90%: 56–95), equivalente EN 203/dia; 8 de 81 long-form passam de 100 mil views.",
+     "measured": true
+    },
+    "L": {
+     "v": 1,
+     "why": "38 canais ativos, 6,8 efetivos; os 3 maiores concentram 55% das views; 32% das views vêm de canais com menos de 100 mil inscritos. O Primo Pobre (4,3 mi de inscritos) tem 2 dos 3 vídeos mais vistos.",
+     "measured": true
+    },
+    "F": {
+     "v": 4,
+     "why": "Planilha é hábito de consumo local (Excel e Google Planilhas), com modelos grátis e salário em reais nas miniaturas. Sem teste de autocomplete para este tema.",
+     "measured": false
+    },
+    "G": {
+     "v": 4,
+     "why": "Grade lida: 12 de 15 miniaturas são apresentador; 3 mostram a planilha em tela com rosto pequeno; 0 são totalmente sem rosto.",
+     "measured": true
+    },
+    "A": {
+     "v": 4,
+     "why": "Modelo de planilha fixo e voz sintética automatizam quase tudo."
+    },
+    "K": {
+     "v": 5,
+     "why": "Sem geração de vídeo; voz local."
+    },
+    "S": {
+     "v": 4,
+     "why": "Cabe nas horas do perfil de exemplo; português é o idioma do criador."
+    },
+    "M": {
+     "v": 2,
+     "why": "RPM brasileiro baixo (r2). Venda do modelo de planilha é a saída além do AdSense."
+    },
+    "V": {
+     "v": 3,
+     "why": "Frescor de 2% (auto V2), mas 32% das views vêm de canais com menos de 100 mil inscritos (Raquel Zucchi, 29,6 mil inscritos, tem 287 mil views)."
+    },
+    "R": {
+     "v": 2,
+     "why": "Risco baixo: método e ferramenta, sem recomendação de investimento."
+    }
+   },
+   "evidence": [
+    {
+     "text": "PLANILHA de ORGANIZAÇÃO FINANCEIRA (Atualizada) · Primo Pobre",
+     "video": "BXTAuLDZkpo",
+     "views": 576578
+    },
+    {
+     "text": "Eu te IMPLORO, organiza teu dinheiro assim! · Raquel Zucchi Silveira",
+     "video": "xgKVKSUY9JQ",
+     "views": 287054
+    },
+    {
+     "text": "Como Criar Qualquer Planilha Excel com I.A (100% Grátis) mesmo sendo total iniciante · Francysco Alcylandyo",
+     "video": "IxWBti47lJM",
+     "views": 177255
+    },
+    {
+     "research": "r2"
+    }
+   ],
+   "competitors": [
+    {
+     "id": "UCfLGzBHhxH9HruuPRLF6pjg",
+     "title": "Raquel Zucchi Silveira"
+    }
+   ],
+   "titles": [
+    "Planilha de orçamento que você usa de verdade (modelo grátis)",
+    "Controle de gastos em 15 minutos por mês: passo a passo",
+    "Planilha ou app? Testei os dois por 30 dias"
+   ],
+   "production": {
+    "automation": "4/5",
+    "cost": "US$ 1 por vídeo (perfil de exemplo)",
+    "local": "sim",
+    "solo": "sim"
+   },
+   "monetization": "AdSense (RPM baixo) e venda do modelo de planilha, a testar.",
+   "risks": "Baixo. O risco é de conteúdo repetitivo se todo vídeo seguir o mesmo roteiro (r5)."
+  }
+ ],
+ "production": {
+  "intro": "Pipeline de exemplo para tutorial em tela com narração, sem rosto. A revisão humana fica em dois pontos.",
+  "pipeline": [
+   {
+    "name": "Pauta e roteiro",
+    "desc": "Roteiro com fonte e dados fictícios; cada vídeo com estrutura e exemplo próprios.",
+    "tool": "LLM",
+    "gate": true
+   },
+   {
+    "name": "Gravação de tela",
+    "desc": "Fluxo real na ferramenta, sem dados bancários reais.",
+    "tool": "gravador de tela",
+    "gate": false
+   },
+   {
+    "name": "Voz",
+    "desc": "Narração sintética identificada nas notas do canal.",
+    "tool": "TTS",
+    "gate": false
+   },
+   {
+    "name": "Montagem e motion",
+    "desc": "Números e destaques que entram na palavra falada.",
+    "tool": "render por código",
+    "gate": false
+   },
+   {
+    "name": "Conferência",
+    "desc": "Rótulo de conteúdo sintético quando couber e revisão dos fatos.",
+    "tool": "pessoa",
+    "gate": true
+   }
+  ],
+  "notes": [
+   "Preços de ferramentas não foram pesquisados nesta execução: K e A usam a rubrica e o perfil de exemplo.",
+   "Persona de IA que se apresenta como especialista financeiro não monetiza (r6): a voz narra o método, não aconselha."
+  ],
+  "sources": [
+   {
+    "research": "r5"
+   },
+   {
+    "research": "r6"
+   },
+   {
+    "research": "r7"
+   }
+  ]
+ },
+ "risks": [
+  {
+   "risk": "Persona de IA dando conselho financeiro",
+   "level": "alto",
+   "mitigation": "Conteúdo sobre ferramenta e método, sem recomendação individual e sem avatar de especialista.",
+   "source": "https://support.google.com/youtube/answer/1311392?hl=en"
+  },
+  {
+   "risk": "Conteúdo repetitivo ou em massa (inautêntico)",
+   "level": "médio",
+   "mitigation": "Estrutura, exemplo e conclusão diferentes em cada vídeo; ritmo de publicação que a revisão sustenta.",
+   "source": "https://support.google.com/youtube/answer/1311392?hl=en"
+  },
+  {
+   "risk": "Extrato bancário em ferramenta de IA",
+   "level": "médio",
+   "mitigation": "Ensinar só com dados fictícios e dizer por quê. Um comentário real do piloto levanta essa dúvida."
+  },
+  {
+   "risk": "Pico movido por programa de governo",
+   "level": "médio",
+   "mitigation": "Evergreen primeiro; o Desenrola 3.0 entra como vídeo de oportunidade, com revisão de fatos (r11)."
+  },
+  {
+   "risk": "Receita baixa por view no Brasil",
+   "level": "médio",
+   "mitigation": "Custo de produção quase zero e venda de modelo de planilha como segunda fonte."
+  }
+ ],
+ "plan": [
+  {
+   "when": "Dias 1–3",
+   "what": "Gravar 1 vídeo de teste: planilha de orçamento montada por IA, com dados fictícios (EN e PT).",
+   "success": "Vídeo publicado com o rótulo de conteúdo sintético quando couber."
+  },
+  {
+   "when": "Dias 4–30",
+   "what": "Publicar 3 vídeos por idioma e medir views por dia e retenção.",
+   "success": "Mediana de 200 views/dia em EN ou 70 em PT (o ritmo do topo de cada célula) em 30 dias."
+  },
+  {
+   "when": "Dia 30",
+   "what": "Decidir: se a mediana ficar abaixo de 50 views/dia, testar voz e rosto próprios antes de desistir do ângulo.",
+   "success": "Decisão registrada com os números."
+  }
+ ],
+ "limitations": [
+  "Piloto: uma consulta por recorte e idioma, 12 meses, topo por views. O topo mede o teto do nicho, não o vídeo típico.",
+  "Miniaturas lidas em 3 das 10 células; G das demais é julgado.",
+  "Receita: RPM só de blogs de terceiros, com confiança baixa. O YouTube não publica RPM por país.",
+  "Produção (A, K, S) usa o perfil de exemplo, e os preços das ferramentas não foram pesquisados hoje.",
+  "Sem aprofundamento: nenhuma sondagem de títulos nem segunda consulta por célula. Isto é o relatório do piloto.",
+  "Tendência: a Wikipédia mede curiosidade enciclopédica, o autocomplete não dá volume e as notícias medem a imprensa.",
+  "Comentários lidos em 3 vídeos (até 100 por vídeo, por relevância)."
+ ],
+ "sources": [
+  {
+   "research": "r1"
+  },
+  {
+   "research": "r2"
+  },
+  {
+   "research": "r3"
+  },
+  {
+   "research": "r4"
+  },
+  {
+   "research": "r5"
+  },
+  {
+   "research": "r6"
+  },
+  {
+   "research": "r7"
+  },
+  {
+   "research": "r8"
+  },
+  {
+   "research": "r9"
+  },
+  {
+   "research": "r10"
+  },
+  {
+   "research": "r11"
+  }
+ ]
+}

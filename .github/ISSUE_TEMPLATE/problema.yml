@@ -1,0 +1,55 @@
+name: Relatar um problema
+description: Algo não funcionou como esperado
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Antes de enviar, apague a chave da API de qualquer texto, log ou print.
+  - type: dropdown
+    id: uso
+    attributes:
+      label: Como você usa a skill
+      options:
+        - Claude Code
+        - Codex
+        - OpenCode
+        - Antigravity
+        - Colab
+        - Scripts direto no terminal
+    validations:
+      required: true
+  - type: dropdown
+    id: sistema
+    attributes:
+      label: Sistema
+      options:
+        - Windows
+        - macOS
+        - Linux ou WSL
+    validations:
+      required: true
+  - type: input
+    id: python
+    attributes:
+      label: Versão do Python
+      placeholder: "3.12.4"
+    validations:
+      required: true
+  - type: textarea
+    id: aconteceu
+    attributes:
+      label: O que aconteceu e o que você esperava
+    validations:
+      required: true
+  - type: textarea
+    id: passos
+    attributes:
+      label: Passos para repetir
+      description: O pedido que você fez ao agente ou o comando que rodou.
+  - type: textarea
+    id: saida
+    attributes:
+      label: Saída do doctor.py e a mensagem de erro
+      description: Rode `python analise-mercado-yt/scripts/doctor.py --no-api` e cole o resultado.
+      render: text

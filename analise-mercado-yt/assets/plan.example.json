@@ -1,0 +1,233 @@
+{
+ "title": "Finanças pessoais · PT × EN",
+ "slug": "teste-financas-2026-10",
+ "created": "2026-10-29",
+ "reference": null,
+ "reference_display": null,
+ "defaults": {
+  "after_days": 365,
+  "order": "viewCount",
+  "duration": "longform",
+  "pages": 1,
+  "mode": "api",
+  "probe_mode": "api",
+  "probe_after_days": 730
+ },
+ "languages": [
+  {
+   "lang": "pt",
+   "region": "BR",
+   "label": "PT-BR",
+   "size": 0.33
+  },
+  {
+   "lang": "en",
+   "region": "US",
+   "label": "EN",
+   "size": 1.0
+  }
+ ],
+ "cells": [
+  {
+   "id": "invest-iniciantes",
+   "label": "Investimentos para iniciantes",
+   "niche": "finanças pessoais",
+   "subniche": "investimentos",
+   "lens": "explicador didático",
+   "queries": {
+    "pt": [
+     "como começar a investir"
+    ],
+    "en": [
+     "how to start investing"
+    ]
+   }
+  },
+  {
+   "id": "sair-dividas",
+   "label": "Sair das dívidas",
+   "niche": "finanças pessoais",
+   "subniche": "dívidas",
+   "lens": "explicador didático",
+   "queries": {
+    "pt": [
+     "como sair das dívidas"
+    ],
+    "en": [
+     "how to get out of debt"
+    ]
+   }
+  },
+  {
+   "id": "renegociar-divida",
+   "label": "Renegociar dívida",
+   "niche": "finanças pessoais",
+   "subniche": "renegociação de dívidas",
+   "lens": "explicador didático",
+   "queries": {
+    "pt": [
+     "como renegociar dívida do cartão"
+    ],
+    "en": [
+     "how to negotiate credit card debt"
+    ]
+   },
+   "keywords": {
+    "pt": [
+     "dívid",
+     "divid",
+     "renegoc",
+     "cartão",
+     "cartao",
+     "nome sujo",
+     "serasa",
+     "negativad"
+    ],
+    "en": [
+     "debt",
+     "credit card",
+     "negotiat",
+     "settle",
+     "collection"
+    ]
+   }
+  },
+  {
+   "id": "planilha-orcamento",
+   "label": "Planilha de orçamento",
+   "niche": "finanças pessoais",
+   "subniche": "controle de gastos",
+   "lens": "tutorial em tela",
+   "queries": {
+    "pt": [
+     "planilha de controle financeiro"
+    ],
+    "en": [
+     "budget spreadsheet tutorial"
+    ]
+   },
+   "keywords": {
+    "pt": [
+     "financ",
+     "orçament",
+     "orcament",
+     "gastos",
+     "controle",
+     "planilha",
+     "dinheiro"
+    ],
+    "en": [
+     "budget",
+     "spreadsheet",
+     "money",
+     "finance",
+     "expenses",
+     "tracker"
+    ]
+   }
+  },
+  {
+   "id": "financas-com-ia",
+   "label": "Finanças com IA",
+   "niche": "finanças pessoais",
+   "subniche": "controle de gastos com IA",
+   "lens": "tutorial em tela",
+   "bend": "novo ângulo: IA no lugar da planilha manual",
+   "queries": {
+    "pt": [
+     "planilha financeira com IA"
+    ],
+    "en": [
+     "AI personal finance tracker"
+    ]
+   },
+   "keywords": {
+    "pt": [
+     [
+      " ia ",
+      "i.a",
+      "chatgpt",
+      "claude",
+      "gemini",
+      "copilot",
+      "inteligência artificial",
+      "inteligencia artificial"
+     ],
+     [
+      "financ",
+      "planilha",
+      "dinheiro",
+      "orçament",
+      "orcament",
+      "gastos",
+      "investi",
+      "excel",
+      "dashboard"
+     ]
+    ],
+    "en": [
+     [
+      " ai ",
+      "ai-",
+      "chatgpt",
+      "claude",
+      "gemini",
+      "copilot",
+      "artificial intelligence"
+     ],
+     [
+      "financ",
+      "budget",
+      "money",
+      "expens",
+      "spend",
+      "invest",
+      "excel",
+      "spreadsheet",
+      "tracker",
+      "cfo"
+     ]
+    ]
+   }
+  }
+ ],
+ "probes": [],
+ "competitors": [],
+ "_exemplo_celula": {
+  "id": "fraudes",
+  "label": "Fraudes corporativas",
+  "lens": "auditor forense",
+  "bend": "nova lente",
+  "queries": {
+   "pt": [
+    "maiores fraudes corporativas",
+    "fraude contábil explicada"
+   ],
+   "fr": "plus grande arnaque"
+  },
+  "keywords": {
+   "pt": [
+    "fraude",
+    "golpe",
+    "esquema"
+   ]
+  },
+  "exclude": [
+   "gta",
+   "minecraft"
+  ]
+ },
+ "_exemplo_sondagem": {
+  "id": "dono-de-nada",
+  "source": {
+   "id": "<videoId>",
+   "title": "<título original>",
+   "views": 0,
+   "lang": "es"
+  },
+  "queries": {
+   "pt": "por que não ter nada é tão caro",
+   "fr": "pourquoi ne rien posséder coûte si cher"
+  }
+ }
+}

@@ -1,0 +1,25 @@
+# Segredos: nunca vão para o repositório
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Análises, caches e pacotes gerados
+analises/
+runs/
+dist/
+_dev/
+*.zip
+*.bak
+*.bak-*
+
+# Sistema e editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
